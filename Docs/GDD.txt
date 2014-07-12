@@ -1,0 +1,36 @@
+GAME DESIGN DOCUMENT (Or TXT if you prefer...)
+
+FP_AGH Version 0.1 by Juan Miguel Lechuga
+
+1. Idea: 
+	- Player in first person perspective shoots enemies preventing them to reach the player.
+	- The player must not be reached by the enemies and should stay on the platform.
+	- Every time the player kills an enemy, he recovers the bullet used to kill it.
+	- Player never wins. He just scores depending on enemies and time achieved.
+
+2. Tasks:
+	- Level:
+		- Just a rectangular platform
+	- Enemies:
+		- Enemy spawner:
+			- Static
+			- Spawns hug-enemies over time
+		- Enemy hugger:
+			- Spawns from a random point of the platform (Level defined)
+			- Always tries to reach the player position
+			- Only one point of life
+			- When dies, player gets one bullet
+	- Bullet counter:
+		- Increases if enemy gets killed
+		- Decreases when player shoots
+	- Player:
+		- FPS camera
+		- Can shoot with LMB
+		- Moves with WASD and jumps with SPACE, crouches with CTRL key
+	- Shooting system:
+		- Bullets must come from the gun to the point where the crosshair is looking to.
+	- Gameplay:
+		- Spawn player in center of the platform
+		- Spawns enemies over time
+		- Timer and enemy killed counter
+		- When player dies, display a score depending on the player time and enemies killed
