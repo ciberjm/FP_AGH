@@ -1,7 +1,8 @@
-Binaries/
-Intermediate/
-Saved/
-FP_AGH.opensdf
-FP_AGH.sdf
-FP_AGH.sln
-FP_AGH.v12.suo
+UEProject/Binaries/
+UEProject/Intermediate/
+UEProject/Saved/
+UEProject/DerivedDataCache/
+UEProject/FP_AGH.opensdf
+UEProject/FP_AGH.sdf
+UEProject/FP_AGH.sln
+UEProject/FP_AGH.v12.suo
